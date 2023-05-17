@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuros Craques</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+
+    <header id="descriçao-evento">
+        <div id="contexto-escolinha">
+            <h1>Futuros Craques</h1>
+            <p class="about-evento">
+                Um evento para encontrar novos craques de até 12 anos
+            </p>
+            <p>Data da peneira:</p>
+            <p class="data-evento">Domingo, 12 de Março, as 10hrs</p>
+        </div>
+        <div id="form-cadastro">
+            <p>Preencha o formulário, para realizar a iscrição do seu(a) filho(a)</p>
+            <form>
+                <div class="form-grupo">
+                    <label for="name">Nome do futuro Craque:</label>
+                    <input type="text" name="name" placeholder="Nome do seu(a) filho(a)">
+                </div>
+                <div class="form-grupo">
+                    <label for="name">Nome do responsável:</label>
+                    <input type="text" name="name" placeholder="Nome do responsável">
+                </div>
+                <div class="form-grupo">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Email do responsável">
+                </div>
+                <div class="form-grupo">
+                    <label for="phone">Telefone:</label>
+                    <input type="text" name="phone" placeholder="Número do Whatsapp">
+                </div>
+                <div class="form-grupo">
+                    <label for="posicao">Posição do futuro craque:</label>
+                    <select name="posicao">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="goleiro">Goleiro</option>
+                        <option value="goleiro">Defesa</option>
+                        <option value="goleiro">Meio Campo</option>
+                        <option value="goleiro">Ataque</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="Inscrever o futuro craque">
+            </form>
+        </div>
+    </header>
+
+
+    <section id="posicoes-peneira">
+
+        <h2>O seu(a) filho(a) poderá jogar em qualquer posição:</h2>
+
+        <div class="posicoes">
+
+            <div class="posicao">
+                <div id="posicao-4" class="posicao-img"></div>
+                <p>Goleiro</p>
+            </div>
+
+            <div class="posicao">
+                <div id="posicao-2" class="posicao-img"></div>
+                <p>Defensor</p>
+            </div>
+
+            <div class="posicao">
+                <div id="posicao-3" class="posicao-img"></div>
+                <p>Meio-campista</p>
+            </div>
+
+            <div class="posicao">
+                <div id="posicao-1" class="posicao-img"></div>
+                <p>Atacante</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="localizacao">
+
+        <dvi id="endereco">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="endereco-detalhes">
+                <p>Rua do evento, 123</p>
+                <p>Brasília, Distrito Federal</p>
+                <p>Abertura dos campos ás 9hrs</p>
+        </div>
+        </dvi>
+
+        <div id="about-localizacao">
+            <h3>Campo com medidas adaptadas</h3>
+            <p>O campo será adaptado, mas as medidas são oficiais para a idade! Então não se preocupe, nossos futuros craques estão em boas mãos.</p>
+        </div>
+    </section>
+
+
+    <section id="detalhes">
+        <div class="detalhe" id="detalhe-1">
+            <img src="/imagens/meninos-em-campo.png" alt="jogadores reunidos">
+            <div class="descricao-detalhe">
+                <h3>Vamos juntos estabelecer uma relação boa para nossas crianças</h3>
+            </div>
+        </div>
+        <div class="detalhe" id="detalhe-2">
+            <div class="descricao-detalhe">
+                <h3>Detalhes</h3>
+                <ul>
+                    <li>Trabalho em equipe</li>
+                    <li>Estimular cordenação motora</li>
+                    <li>Visão periférica</li>
+                    <li>Melhora capacidade cardiovascular</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </div>
+            <img src="/imagens/download.jpeg" alt="Meninos vibrando">
+        </div>
+        <div class="detalhe" id="detalhe-3">
+            <img src="/imagens/8.png" alt="torcida">
+            <div class="descricao-detalhe">
+                <h3>Venha e traga a torcida para seu(a) filho(a)</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <h3>Gostou? Então traga seu(a) filho(a)!</h3>
+        <button class="btn">Solicitar incriçâo</button>
+    </section>
+
+    <foote id="footer">
+        <h3>Futuros Craques</h3>
+        <p>Diversão, responsabilidade e desenvolvimento</p>
+        <p><span>Entre em contato:</span> contato@futuroscraques.com.br</p>
+        <p><span>Ou pelo Whatsapp:</span> (61) 999999-9999</p>
+    </foote>
+</body>
+</html>
